@@ -1,0 +1,20 @@
+{
+  "name": "poc.app",
+  "version": "0.0.1",
+  "homepage": "https://github.com/atwayne/poc-javascript-unittest",
+  "authors": [
+    "Wayne Wang <lastr2d2@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.5"
+  }
+}
