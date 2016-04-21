@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jasmine on TeamCity POC</title>
+    <script src="./bower_components/angular/angular.min.js" charset="utf-8"></script>
+    <script src="./scripts/app.js" charset="utf-8"></script>
+    <script src="./scripts/services/caculator.js" charset="utf-8"></script>
+    <script src="./scripts/controller/caculator.js" charset="utf-8"></script>
+  </head>
+  <body ng-app="app">
+    <section ng-controller="CaculateController as vm" ng-init="vm.init()">
+      <input type="text" ng-model="vm.first" placeholder="First Number"/>
+      <span>+</span>
+      <input type="text" ng-model="vm.second" placeholder="Second Number"/>
+      <button ng-click="vm.add()">=</button>
+      <span id="result">{{vm.result}}</span>
+    </section>
+  </body>
+</html>
